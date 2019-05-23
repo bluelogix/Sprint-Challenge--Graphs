@@ -19,9 +19,32 @@ world.loadGraph(roomGraph)
 world.printRooms()
 player = Player("Name", world.startingRoom)
 
+# USE THESE
+# player.currentRoom.id, player.currentRoom.getExits() and player.travel(direction)
 
 # FILL THIS IN
 traversalPath = []
+
+# create dictionary with path
+
+# create DFS to find unexplored rooms
+
+# Once all rooms on that path are found 
+
+# Use BFS to find nearest room w/ unexplored exits
+
+# then dfs repeat until all rooms are found 
+
+
+
+
+
+
+
+
+
+
+
 
 
 # TRAVERSAL TEST
